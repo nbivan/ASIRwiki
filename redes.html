@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="Tu Wiki sobre el Grado Superior de ASIR">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Tu Wiki de ASIR</title>
+      <!-- Add to homescreen for Chrome on Android -->
+      <meta name="mobile-web-app-capable" content="yes">
+      <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+      <!-- Add to homescreen for Safari on iOS -->
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="indigo">
+      <meta name="apple-mobile-web-app-title" content="Tu Wiki sobre el Grado Superior de ASIR">
+      <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+      <!-- Tile icon for Win8 (144x144 + tile color) -->
+      <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+      <meta name="msapplication-TileColor" content="#303F9F">
+      <link rel="shortcut icon" href="images/favicon.png">
+      <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+      <!--
+         <link rel="canonical" href="http://www.example.com/">
+         -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-yellow.min.css" />
+      <link rel="stylesheet" href="styles.css">
+      <style>
+         #view-source {
+         position: fixed;
+         display: block;
+         right: 0;
+         bottom: 0;
+         margin-right: 40px;
+         margin-bottom: 40px;
+         z-index: 900;
+         }
+      </style>
+      <!-- Image card -->
+      <style>
+         .demo-card-image.mdl-card {
+         width: 256px;
+         height: 256px;
+         background: url('./images/image_card.jpg') center / cover;
+         }
+         .demo-card-image > .mdl-card__actions {
+         height: 52px;
+         padding: 16px;
+         background: rgba(0, 0, 0, 0.2);
+         }
+         .demo-card-image__filename {
+         color: #fff;
+         font-size: 14px;
+         font-weight: 500;
+         }
+      </style>
+   </head>
+   <!-- Cuerpo -->
+   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--indigo-500">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+         <div class="mdl-layout__header-row">
+            <div class="android-header-spacer mdl-layout-spacer"></div>
+            <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/logo.png"></a>
+            </span>
+            <!-- Menu de Navegacion -->
+            <div class="android-navigation-container">
+               <nav class="android-navigation mdl-navigation">
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./index.html">Home</a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./primero.html">1º ASIR</a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./segundo.html">2º ASIR</a>
+                  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="./colaborar.html">Colaborar</a>
+               </nav>
+            </div>
+            <span class="android-mobile-title mdl-layout-title">
+            <img class="navigation-image" src="./images/logo.png">
+            </span>
+         </div>
+      </div>
+      <!-- Menu de Navegacion -->
+      <div class="android-drawer mdl-layout__drawer">
+         <span class="mdl-layout-title">
+         <img class="android-logo-image" src="./images/logo-navigation.png">
+         </span>
+         <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="./index.html">Home</a>
+            <a class="mdl-navigation__link" href="./primero.html">Primer curso</a>
+            <a class="mdl-navigation__link" href="./segundo.html">Segundo curso</a>
+            <a class="mdl-navigation__link" href="./colaborar.html">Como colaborar</a>
+            <div class="android-drawer-separator"></div>
+            <a class="mdl-navigation__link" href="./about.html">Acerca de AsirWiki</a>
+            <a class="mdl-navigation__link" href="./legal.html">Aviso legal</a>
+            <a class="mdl-navigation__link" href="https://mega.nz/#F!IE1VQKjZ!t4c5HN4b9blYwrsQ6dphdw">Source code</a>
+         </nav>
+      </div>  
+      <div class="android-content mdl-layout__content">
+	    <!-- Contenido del Modulo -->        
+		<div class="mdl-layout__tab-panel is-active mdl-color--indigo-500" id="home">
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+			  <h4>Planificación y Administración de Redes [CISCO]</h4>
+			  <img class="icon icons8-PDF-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACmElEQVRoQ+1Z3ZHTMBDelSd55aiAdECogFDBQQXkwdLk8ajgQgXcY0bKAx1wVHC5CkgHBxVwKSBaZjMSoxMkspEdJ4z9kokVr/bb79sfxQhnfuGZ+w89gK4ZrMTAbDYbWWs/EdEEES/adJqIHhFxJYT4sFgsvqf2SgJwzj+kDDW9zkCKoniVApEEIKW8RcTLph2sYo+Ivhpj3h76bRUAP9uWzT4HmQVjzPMsAEopCg1orZOgq0R332/q7pd0pq7BHOf52br79QByIx4/3zOQG5FcRnoG/gsG/OwDAGMAGOXKIvE8zztrP/tkS4id3263347dff3sY619MnelGucffaDr2Seeu/4FQGezDwCwnJ5ItjaAWIOs39iIy5E5ALzndWvtm+VyufJaV0rxBMnrL/keEd0bYyZxLkgpV4j4+lCONApASrnbzBhzz5/eAQ9ASjk2xqx5bTqdXgyHQ47oMw+A7w0Ggx0od90gIheKvVejAAJ2Pmqt50opjvJ1AMBH9J3W+lYp9ZlZ8gDKspwIIe7qVLVWAPiDxj4A3mG/fjIAWDIuelcsFR/hmIEAAOfCF//d5c7U2eBk3eXQ0SQUbsR6B4A77hdVAYTPV5VT0xK6JiKO3AgRf1eVAwB2OXIyEvpbiQ3LaFAWTzuJY80GDLC+15wfrmQ+sMTOhgEPrCzLS0Sc+xp/bACP3HxS1aGNdSL6gYgvQtu1k/jshzlXq3kcODYLGyHEOHucZvrcmeCGDzQxpU1Lh2XDiV8UxRX/D5p9oIkdrGswF2Dd/fo/tnIjnst4z0DPQBSBNpK4s84MABut9cF3cskc6LozZ79i6uolH0efO3P2S76wM7tDTNsjxoaIVr4zp4pEUkIpA12v9wB6BjIj8AsuPVhP911k/QAAAABJRU5ErkJggg==" width="32" height="32">
+					   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://mega.nz/#!IAliEI4I!oy2ylIqmZDYq58WuzyPH5blJmeIyu9r0ueffXEBSkTc"><font size=3 color=#3F51B5>CCNA 1 v5 - Temario Completo</font></a>
+					<br> </br>
+			  <img class="icon icons8-DOC" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADLUlEQVRoQ+1ZUU4bMRCd8QrEX+EEzRHCCRpO0PYEDRK2+CucoOEE8IlsJHKD0hOQnoDcoOkJCr9B2aneyo6WJcHZOktEtf5Kdm3ve57xvOddpjfe+I3jp5bApiO4UgSOj487eZ6fi0iPmXebBC0i98w8UkqdXl5eTmLPihLw4H/FJlr3fRDJsmw/RiJKQGt9w8wf1w1wlflE5Idz7tNLfVch8KfptFkGEFFwzu0lETDGSHkCa22U9Cqru6xP3edFwdSdMAU8xtZ9XksgdcWr49sIpK5IakTaCPwXEQjeh4i6RNRJTYvIePidcfA+ySkE8LPZ7O611Td4nzzPn/iumHA+04FNe5+q7/oXAhvzPkSEdHqSsrUJVHMwz/ODcg4rpXpE9G1BXp/leT7CdWYGiAEzvy/3E5HfRAR3e4/rItKv9qnOm0wgTKC17jrnxt6vnBDReelhp9bai36/v7uzs7MLD4/fW1tb4wAQ4B8fH7vD4bAAj1bts2izr5PAiJk/ENFna+2N1noCcADmnCvCbozBBsTp7eDq6mpkjJkTFZHDLMtGs9ns2kdgYq091VojCtfLKtXaCYjIT+dcT2tdEAr/j46OekqpWwAJBMrXAKT8H/1wLXbia4yAMWZIRF/CqckYg5PTd5/bh865YYzAKvrSJIEBNvOiCBDRmbV20BLwafZSpJ4J2TIpDzlf2sQXzPw1RKCSy8VGL6fVdDrdQ4UqKW1RuYwxRSRfYxP34VlQSlH+tre374LoiMg+rnvAHQADIK31LTNDN1Dzi33hK1NXKTVAuQ17qXEC4QElozd/3SEi0AcALHTC1/dzZgbp0CbT6XS/rAOxEhoqVd0UgtC8C4NEpFDX0MKKLprUE8GbtWLVqw2GDVGEDohIh5nhducNmlJV5tpV6M2bOZ8iSIV5FFap12vo86CU6ibbaQDxZwJsxG7MbKUC9wZvnGXZid/UtV6kte+FUiNQHZ98pEydMJVQS6CNQGIONZFCT5Q5EV/d4Q/W2he/yUXL6KaVOfkTU+zIV3dJa/QvlDn5I19Zmb1Ja9piPMBABmWOEY6mUGyCTd9vCbQRSFyBvy8zh09PqbsiAAAAAElFTkSuQmCC" width="32" height="32">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://mega.nz/#!EdV2BAbJ!L1iov_nQPWJyeMVPSSG2ZXJRtLF0f1dvbfOadaOKnbk"><font size=3 color=#3F51B5>CCNA 1 Cisco - Capitulo 1 - Resumen</font></a>
+					<br> </br>  
+			  <img class="icon icons8-DOC" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADLUlEQVRoQ+1ZUU4bMRCd8QrEX+EEzRHCCRpO0PYEDRK2+CucoOEE8IlsJHKD0hOQnoDcoOkJCr9B2aneyo6WJcHZOktEtf5Kdm3ve57xvOddpjfe+I3jp5bApiO4UgSOj487eZ6fi0iPmXebBC0i98w8UkqdXl5eTmLPihLw4H/FJlr3fRDJsmw/RiJKQGt9w8wf1w1wlflE5Idz7tNLfVch8KfptFkGEFFwzu0lETDGSHkCa22U9Cqru6xP3edFwdSdMAU8xtZ9XksgdcWr49sIpK5IakTaCPwXEQjeh4i6RNRJTYvIePidcfA+ySkE8LPZ7O611Td4nzzPn/iumHA+04FNe5+q7/oXAhvzPkSEdHqSsrUJVHMwz/ODcg4rpXpE9G1BXp/leT7CdWYGiAEzvy/3E5HfRAR3e4/rItKv9qnOm0wgTKC17jrnxt6vnBDReelhp9bai36/v7uzs7MLD4/fW1tb4wAQ4B8fH7vD4bAAj1bts2izr5PAiJk/ENFna+2N1noCcADmnCvCbozBBsTp7eDq6mpkjJkTFZHDLMtGs9ns2kdgYq091VojCtfLKtXaCYjIT+dcT2tdEAr/j46OekqpWwAJBMrXAKT8H/1wLXbia4yAMWZIRF/CqckYg5PTd5/bh865YYzAKvrSJIEBNvOiCBDRmbV20BLwafZSpJ4J2TIpDzlf2sQXzPw1RKCSy8VGL6fVdDrdQ4UqKW1RuYwxRSRfYxP34VlQSlH+tre374LoiMg+rnvAHQADIK31LTNDN1Dzi33hK1NXKTVAuQ17qXEC4QElozd/3SEi0AcALHTC1/dzZgbp0CbT6XS/rAOxEhoqVd0UgtC8C4NEpFDX0MKKLprUE8GbtWLVqw2GDVGEDohIh5nhducNmlJV5tpV6M2bOZ8iSIV5FFap12vo86CU6ibbaQDxZwJsxG7MbKUC9wZvnGXZid/UtV6kte+FUiNQHZ98pEydMJVQS6CNQGIONZFCT5Q5EV/d4Q/W2he/yUXL6KaVOfkTU+zIV3dJa/QvlDn5I19Zmb1Ja9piPMBABmWOEY6mUGyCTd9vCbQRSFyBvy8zh09PqbsiAAAAAElFTkSuQmCC" width="32" height="32">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://mega.nz/#!JVVxmaoK!X0qodr6LBfkPEyEo8tgRFJoDDl4_HbKCsIcdkuPKLJo"><font size=3 color=#3F51B5>CCNA 1 Cisco - Capitulo 2 - Resumen</font></a>
+					<br> </br> 
+			  <img class="icon icons8-DOC" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADLUlEQVRoQ+1ZUU4bMRCd8QrEX+EEzRHCCRpO0PYEDRK2+CucoOEE8IlsJHKD0hOQnoDcoOkJCr9B2aneyo6WJcHZOktEtf5Kdm3ve57xvOddpjfe+I3jp5bApiO4UgSOj487eZ6fi0iPmXebBC0i98w8UkqdXl5eTmLPihLw4H/FJlr3fRDJsmw/RiJKQGt9w8wf1w1wlflE5Idz7tNLfVch8KfptFkGEFFwzu0lETDGSHkCa22U9Cqru6xP3edFwdSdMAU8xtZ9XksgdcWr49sIpK5IakTaCPwXEQjeh4i6RNRJTYvIePidcfA+ySkE8LPZ7O611Td4nzzPn/iumHA+04FNe5+q7/oXAhvzPkSEdHqSsrUJVHMwz/ODcg4rpXpE9G1BXp/leT7CdWYGiAEzvy/3E5HfRAR3e4/rItKv9qnOm0wgTKC17jrnxt6vnBDReelhp9bai36/v7uzs7MLD4/fW1tb4wAQ4B8fH7vD4bAAj1bts2izr5PAiJk/ENFna+2N1noCcADmnCvCbozBBsTp7eDq6mpkjJkTFZHDLMtGs9ns2kdgYq091VojCtfLKtXaCYjIT+dcT2tdEAr/j46OekqpWwAJBMrXAKT8H/1wLXbia4yAMWZIRF/CqckYg5PTd5/bh865YYzAKvrSJIEBNvOiCBDRmbV20BLwafZSpJ4J2TIpDzlf2sQXzPw1RKCSy8VGL6fVdDrdQ4UqKW1RuYwxRSRfYxP34VlQSlH+tre374LoiMg+rnvAHQADIK31LTNDN1Dzi33hK1NXKTVAuQ17qXEC4QElozd/3SEi0AcALHTC1/dzZgbp0CbT6XS/rAOxEhoqVd0UgtC8C4NEpFDX0MKKLprUE8GbtWLVqw2GDVGEDohIh5nhducNmlJV5tpV6M2bOZ8iSIV5FFap12vo86CU6ibbaQDxZwJsxG7MbKUC9wZvnGXZid/UtV6kte+FUiNQHZ98pEydMJVQS6CNQGIONZFCT5Q5EV/d4Q/W2he/yUXL6KaVOfkTU+zIV3dJa/QvlDn5I19Zmb1Ja9piPMBABmWOEY6mUGyCTd9vCbQRSFyBvy8zh09PqbsiAAAAAElFTkSuQmCC" width="32" height="32">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://mega.nz/#!8c8xGapI!dSJ4rPADhOol0BI0HFqdOlqPMHtlrqueMnCBeQMrWbU"><font size=3 color=#3F51B5>CCNA 1 Cisco - Capitulo 3 - Resumen</font></a>
+					<br> </br>  
+			  <img class="icon icons8-DOC" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADLUlEQVRoQ+1ZUU4bMRCd8QrEX+EEzRHCCRpO0PYEDRK2+CucoOEE8IlsJHKD0hOQnoDcoOkJCr9B2aneyo6WJcHZOktEtf5Kdm3ve57xvOddpjfe+I3jp5bApiO4UgSOj487eZ6fi0iPmXebBC0i98w8UkqdXl5eTmLPihLw4H/FJlr3fRDJsmw/RiJKQGt9w8wf1w1wlflE5Idz7tNLfVch8KfptFkGEFFwzu0lETDGSHkCa22U9Cqru6xP3edFwdSdMAU8xtZ9XksgdcWr49sIpK5IakTaCPwXEQjeh4i6RNRJTYvIePidcfA+ySkE8LPZ7O611Td4nzzPn/iumHA+04FNe5+q7/oXAhvzPkSEdHqSsrUJVHMwz/ODcg4rpXpE9G1BXp/leT7CdWYGiAEzvy/3E5HfRAR3e4/rItKv9qnOm0wgTKC17jrnxt6vnBDReelhp9bai36/v7uzs7MLD4/fW1tb4wAQ4B8fH7vD4bAAj1bts2izr5PAiJk/ENFna+2N1noCcADmnCvCbozBBsTp7eDq6mpkjJkTFZHDLMtGs9ns2kdgYq091VojCtfLKtXaCYjIT+dcT2tdEAr/j46OekqpWwAJBMrXAKT8H/1wLXbia4yAMWZIRF/CqckYg5PTd5/bh865YYzAKvrSJIEBNvOiCBDRmbV20BLwafZSpJ4J2TIpDzlf2sQXzPw1RKCSy8VGL6fVdDrdQ4UqKW1RuYwxRSRfYxP34VlQSlH+tre374LoiMg+rnvAHQADIK31LTNDN1Dzi33hK1NXKTVAuQ17qXEC4QElozd/3SEi0AcALHTC1/dzZgbp0CbT6XS/rAOxEhoqVd0UgtC8C4NEpFDX0MKKLprUE8GbtWLVqw2GDVGEDohIh5nhducNmlJV5tpV6M2bOZ8iSIV5FFap12vo86CU6ibbaQDxZwJsxG7MbKUC9wZvnGXZid/UtV6kte+FUiNQHZ98pEydMJVQS6CNQGIONZFCT5Q5EV/d4Q/W2he/yUXL6KaVOfkTU+zIV3dJa/QvlDn5I19Zmb1Ja9piPMBABmWOEY6mUGyCTd9vCbQRSFyBvy8zh09PqbsiAAAAAElFTkSuQmCC" width="32" height="32">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://mega.nz/#!gU0k0C7B!ei9qqLLe_QRcClX6-c6CMW-PJKIu5ENAvzvMMYWxTZM"><font size=3 color=#3F51B5>CCNA 1 Cisco - Capitulo 4 - Resumen</font></a>
+					<br> </br>	
+			  <img class="icon icons8-PDF-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACmElEQVRoQ+1Z3ZHTMBDelSd55aiAdECogFDBQQXkwdLk8ajgQgXcY0bKAx1wVHC5CkgHBxVwKSBaZjMSoxMkspEdJ4z9kokVr/bb79sfxQhnfuGZ+w89gK4ZrMTAbDYbWWs/EdEEES/adJqIHhFxJYT4sFgsvqf2SgJwzj+kDDW9zkCKoniVApEEIKW8RcTLph2sYo+Ivhpj3h76bRUAP9uWzT4HmQVjzPMsAEopCg1orZOgq0R332/q7pd0pq7BHOf52br79QByIx4/3zOQG5FcRnoG/gsG/OwDAGMAGOXKIvE8zztrP/tkS4id3263347dff3sY619MnelGucffaDr2Seeu/4FQGezDwCwnJ5ItjaAWIOs39iIy5E5ALzndWvtm+VyufJaV0rxBMnrL/keEd0bYyZxLkgpV4j4+lCONApASrnbzBhzz5/eAQ9ASjk2xqx5bTqdXgyHQ47oMw+A7w0Ggx0od90gIheKvVejAAJ2Pmqt50opjvJ1AMBH9J3W+lYp9ZlZ8gDKspwIIe7qVLVWAPiDxj4A3mG/fjIAWDIuelcsFR/hmIEAAOfCF//d5c7U2eBk3eXQ0SQUbsR6B4A77hdVAYTPV5VT0xK6JiKO3AgRf1eVAwB2OXIyEvpbiQ3LaFAWTzuJY80GDLC+15wfrmQ+sMTOhgEPrCzLS0Sc+xp/bACP3HxS1aGNdSL6gYgvQtu1k/jshzlXq3kcODYLGyHEOHucZvrcmeCGDzQxpU1Lh2XDiV8UxRX/D5p9oIkdrGswF2Dd/fo/tnIjnst4z0DPQBSBNpK4s84MABut9cF3cskc6LozZ79i6uolH0efO3P2S76wM7tDTNsjxoaIVr4zp4pEUkIpA12v9wB6BjIj8AsuPVhP911k/QAAAABJRU5ErkJggg==" width="32" height="32">
+					   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://mega.nz/#!wV8BjK4Q!croRc-_bw4OkEpjX0G2LKi-R6aNuZgEbsV2C_NELfr0"><font size=3 color=#3F51B5>CCNA 1 Cisco - Capitulo 4 - 1. Categorias Cables</font></a>
+					<br> </br>		
+			  </div>
+            </div>
+          </section>
+        <br> </br>
+        </div>
+	
+	<!-- Boton flotante para contactar por correo -->
+    <a href="mailto:upload@asirwiki.hol.es" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">¿Tienes nuevos apuntes?</a>
+    <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+  </body>
+</html>
